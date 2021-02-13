@@ -1,0 +1,53 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+/*perfect background codes from css-tricks*/
+   background: url(Vermilion.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+	font-size: 3rem;
+	color: #e5c720;
+}
+
+h1:hover {
+	transform: scale(1.1);
+}
+
+hr{
+	border-color: green;
+	border-width: 5px;
+	max-width: 100px;
+}
+
+.buffer{
+	height: 10rem;
+}
+
+.btn{
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary{
+	background-color: pink;
+	border-color: pink;
+}
+
+.btn-primary:hover{
+	background-color: yellow;
+	border-color: yellow;
+	border-width: 0px;
+	transform: scale(0.8);
+}
+
+.btn-xl{
+	padding: 1rem 2rem;
+}
